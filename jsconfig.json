@@ -1,0 +1,9 @@
+// This file is to allow VSCODE to let me use ES6.
+{
+    "compilerOptions": {
+        "target": "ES6"
+    },
+    "files": [
+        "src/index.js"
+    ]
+}

@@ -1,0 +1,164 @@
+C,F,Bb,Eb,Ab,Db,Gb,Cb, G, D, A, E, B, F#, C# -- 15 TOTAL
+
+////////////////////////////////////////////////////////
+
+key_c_major = db.key_c_major.insert({
+    "name": "C Major",
+    "abbr": "CMaj",
+    "notes": ["C","D","E","F","G","A","B"],
+    "chords": ["C","Dmin","Emin","F","G","Amin","Bdim"],
+    "classical_songs": "Test" ,
+    "popular_songs": "Test",
+    "relative_minor": "A Minor" ,
+})
+
+key_f_major = {
+    "name": "F Major",
+    "abbr": "FMaj",
+    "notes": ["F","G","A","Bb","C","D","E"],
+    "chords": ["F","Gmin","Amin","Bb","C","Dmin","Edim"],
+    "classical_songs": ,
+    "popular_songs": ,
+    "relative_minor": "D Minor",
+}
+
+key_bb_major = {
+    "name": "B Flat Major",
+    "abbr": "BbMaj",
+    "notes": ["Bb","C","D","Eb","F","G","A"],
+    "chords": ["Bb","Cmin","Dmin","Eb","F","Gmin","Adim"],
+    "classical_songs": ,
+    "popular_songs": ,
+    "relative_minor": "G Minor",
+}
+
+////////////////////////////////////////////////
+
+key_eb_major = {
+    "name": "E Flat Major",
+    "abbr": "EbMaj",
+    "notes": ["Eb","F","G","Ab","Bb","C","D"],
+    "chords": ["Eb","Fmin","Gmin","Ab","Bb","Cmin","Ddim"],
+    "classical_songs": ,
+    "popular_songs": ,
+    "relative_minor": "C Minor",
+}
+
+key_ab_major = {
+    "name": "A Flat Major",
+    "abbr": "AbMaj",
+    "notes": ["Ab","Bb","C","Db","Eb","F","G"],
+    "chords": ["Ab","Bbmin","Cmin","Db","Eb","Fmin","Gdim"],
+    "classical_songs": ,
+    "popular_songs": ,
+    "relative_minor": "F Minor" ,
+}
+
+key_db_major = {
+    "name": "D Flat Major",
+    "abbr": "DbMaj",
+    "notes": ["Db","Eb","F","Gb","Ab","Bb","C"],
+    "chords": ["Db","Ebmin","Fmin","Gb","Ab","Bbmin","Cdim"],
+    "classical_songs": ,
+    "popular_songs": ,
+    "relative_minor": "B Flat Minor" ,
+}
+
+///////////////////////////////////////////////////////
+
+key_gb_major = {
+    "name": "G Flat Major",
+    "abbr": "GbMaj",
+    "notes": ["Gb","Ab","Bb","Cb","Db","Eb","F"],
+    "chords": ["Gb","Abmin","Bbmin","Cb","Db","Ebmin","Fdim"],
+    "classical_songs": ,
+    "popular_songs": ,
+    "relative_minor": "E Flat Minor",
+}
+
+key_cb_major = {
+    "name": "C Flat Major",
+    "abbr": "CbMaj",
+    "notes": ["Cb","Db","Eb","Fb","Gb","Ab","Bb"],
+    "chords": ["Cb","Dbmin","Emin","Fb","Gb","Amin","Bdim"],
+    "classical_songs": ,
+    "popular_songs": ,
+    "relative_minor": "A Minor",
+}
+
+key_g_major = {
+    "name": "G Major",
+    "abbr": "GMaj",
+    "notes": ["G","A","B","C","D","E","F#"],
+    "chords": ["G","Amin","Bmin","C","D","Emin","F#dim"],
+    "classical_songs": ,
+    "popular_songs": ,
+    "relative_minor": "E Minor",
+}
+
+///////////////////////////////////////////////////////////
+
+key_d_major = {
+    "name": "D Major",
+    "abbr": "DMaj",
+    "notes": ["D","E","F#","G","A","B","C#"],
+    "chords": ["D","Emin","F#min","Gb","Ab","Bmin","C#dim"],
+    "classical_songs": ,
+    "popular_songs": ,
+    "relative_minor": "B Minor" ,
+}
+
+key_a_major = {
+    "name": "A Major",
+    "abbr": "AMaj",
+    "notes": ["A","B","C#","D","E","F#","G#"],
+    "chords": ["A","Bmin","C#min","D","E","F#min","Gdim"],
+    "classical_songs": ,
+    "popular_songs": ,
+    "relative_minor": "F Sharp Minor" ,
+}
+
+key_e_major = {
+    "name": "E Major",
+    "abbr": "EMaj",
+    "notes": ["E","F#","G#","A","B","C#","D#"],
+    "chords": ["E","F#min","G#min","A","B","C#min","D#dim"],
+    "classical_songs": ,
+    "popular_songs": ,
+    "relative_minor": "C Sharp Minor" ,
+}
+
+///////////////////////////////////////////////////////////////////
+
+key_b_major = {
+    "name": "B Major",
+    "abbr": "BMaj",
+    "notes": ["B","C#","D#","E","F#","G#","A#"],
+    "chords": ["B","C#min","D#min","E","F#","G#min","A#dim"],
+    "classical_songs": ,
+    "popular_songs": ,
+    "relative_minor": "G Sharp Minor" ,
+}
+
+key_f#_major = {
+    "name": "F Sharp Major",
+    "abbr": "F#Maj",
+    "notes": ["F#","G#","A#","B","C#","D#","E#"],
+    "chords": ["F#","G#min","A#min","B","C#","D#min","E#dim"],
+    "classical_songs": ,
+    "popular_songs": ,
+    "relative_minor": "D Sharp Minor",
+}
+
+key_c#_major = {
+    "name": "C Sharp Major",
+    "abbr": "C#Maj",
+    "notes": ["C#","D#","E#","F#","G#","A#","B#"],
+    "chords": ["C#","D#min","E#min","F#","G#","A#min","B#dim"],
+    "classical_songs": ,
+    "popular_songs": ,
+    "relative_minor": "A Sharp Minor",
+}
+
+
+
