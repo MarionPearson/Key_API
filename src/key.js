@@ -2,6 +2,8 @@ import mongoose from 'mongoose';
 
 var Schema = mongoose.Schema;
 
+//SCHEMA imported from index.js
+
 var KeySchema = new Schema({
     name: String,
     abbr: String,
@@ -15,4 +17,5 @@ var KeySchema = new Schema({
     collection:'keys'
 });
 
+// EXPORT SCHEMA
 module.exports = mongoose.model('Key', KeySchema)
