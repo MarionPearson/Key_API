@@ -17,7 +17,7 @@ var KeySchema = new Schema({
     popular_songs: String,
     relative_minor: String
 }, {
-    collection: 'key_c_major'
+    collection: 'keys'
 });
 
 module.exports = _mongoose2.default.model('Key', KeySchema);

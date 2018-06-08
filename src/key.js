@@ -12,7 +12,7 @@ var KeySchema = new Schema({
     relative_minor: String
 },
 {
-    collection:'key_c_major'
+    collection:'keys'
 });
 
 module.exports = mongoose.model('Key', KeySchema)

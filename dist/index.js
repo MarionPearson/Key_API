@@ -43,9 +43,9 @@ router.get('/', function (req, res) {
 
 router.route('/keys').get(function (req, res) {
 
-    _key2.default.findOne({ 'name': 'C Major' }, function (err, keys) {
+    _key2.default.findOne({ 'name': 'F Major' }, function (err, keys) {
         if (err) res.send(err);
-        res.json(keys);
+        res.json(keys.chords);
     });
 });
 
