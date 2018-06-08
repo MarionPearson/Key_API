@@ -11,7 +11,7 @@ const app = express();
 
 // DB connection
 //mongoose.connect('mongodb://localhost:27017/key_information')
-mongoose.connect('mongodb://admin:1q2w3e4R@ds119650.mlab.com:19650/key_information')
+mongoose.connect('mongodb://user:apiuser1R@ds119650.mlab.com:19650/key_information')
 
 // MIDDLEWARE //
 app.use(bodyParser.urlencoded({ extended: true}));

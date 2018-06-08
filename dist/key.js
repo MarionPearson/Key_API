@@ -8,6 +8,8 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var Schema = _mongoose2.default.Schema;
 
+//SCHEMA imported from index.js
+
 var KeySchema = new Schema({
     name: String,
     abbr: String,
@@ -20,4 +22,5 @@ var KeySchema = new Schema({
     collection: 'keys'
 });
 
+// EXPORT SCHEMA
 module.exports = _mongoose2.default.model('Key', KeySchema);
